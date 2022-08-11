@@ -1,0 +1,11 @@
+
+furniture code = 1234
+furniture type = plastic
+furniture grade = grade 1
+furniture color = red
+furniture usage = Outdoor
+furniture price = 500.0
+discounted price = 475.0
+
+Process finished with exit code 0
+

@@ -16,13 +16,11 @@ public class FurnitureItem {
         double furniturePrice=0;
     }
 
-    public double getDiscountedPrice(String furnitureUsage,double furniturePrice){
-        if (furnitureUsage.equals("Outdoor")){
-            return (furniturePrice * 95)/100;
-        }
-        else {
+    public double getDiscountedPrice(double furniturePrice){
+        if (furnitureUsage.equals("Outdoor"))
+        return furniturePrice * 95/100;
+        else
             return furniturePrice;
-        }
     }
 }
 
