@@ -16,7 +16,7 @@ public class FurnitureItemImpl {
         f1.grade=sc.nextLine();
         System.out.println("Enter furniture price");
         f1.furniturePrice=sc.nextInt();
-        double discountedPrice= f1.getDiscountedPrice(f1.furniturePrice);
+
 
 
 
@@ -28,7 +28,8 @@ public class FurnitureItemImpl {
         System.out.println("furniture color = " + f1.color);
         System.out.println("furniture usage = " + f1.furnitureUsage);
         System.out.println("furniture price = " + f1.furniturePrice);
-        System.out.println("discounted price = "+ discountedPrice);
+        f1.getDiscountedPrice();
+
 
     }
 }

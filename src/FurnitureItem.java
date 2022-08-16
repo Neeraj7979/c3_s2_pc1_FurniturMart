@@ -16,11 +16,16 @@ public class FurnitureItem {
         double furniturePrice=0;
     }
 
-    public double getDiscountedPrice(double furniturePrice){
-        if (furnitureUsage.equals("Outdoor"))
-        return furniturePrice * 95/100;
-        else
-            return furniturePrice;
+    public void getDiscountedPrice(){
+        if (furnitureUsage.equals("Outdoor")){
+           furniturePrice=(furniturePrice * 95/100);
+            System.out.println("discounted furniture price :"+ furniturePrice);
+        }
+        else {
+            System.out.println("No discount");
+        }
     }
+
+
 }
 
